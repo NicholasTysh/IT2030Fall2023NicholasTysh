@@ -8,6 +8,8 @@ Movies
 ## App Name
 NickFlix+
 
+## Logo
+![nickflix+ logo](./images/logo1.png)
 
 ## Title
 
@@ -28,7 +30,6 @@ Stream, Buy, or Rent - The Choice is Yours with NickFlix+
 Discover an expansive library of movies that will keep you entertained from the comfort of your home or on the go. With NickFlix+, you can stream blockbuster hits, timeless classics, and hidden gems in high definition. 
 
 Whether you're a fan of action-packed thrillers, heartwarming dramas, or anything in between, we've got you covered.
-
 
 ## Section 2
 
