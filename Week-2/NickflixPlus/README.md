@@ -1,5 +1,7 @@
 # Summary
 
+![home page screenshot](./wwwroot/images/screenshots/screenshot1.png)
+
 ## **1\. Views/Home/Index.cshtml**
 
 #### Purpose:
