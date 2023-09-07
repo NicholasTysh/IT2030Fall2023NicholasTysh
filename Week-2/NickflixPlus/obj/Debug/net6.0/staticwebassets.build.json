@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ejoQzQ7L2noI+ZTB6vDMxSTghKUYlUhNVy0NlRcgEzQ=",
+  "Hash": "+IHMcXSEJd/JUMWWQqiu6A/TMiKmDBXKqqYaOpmT2to=",
   "Source": "NickflixPlus",
   "BasePath": "_content/NickflixPlus",
   "Mode": "Default",
@@ -102,23 +102,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickflixPlus\\wwwroot\\images\\homepage\\image_1.png",
-      "SourceId": "NickflixPlus",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickflixPlus\\wwwroot\\",
-      "BasePath": "_content/NickflixPlus",
-      "RelativePath": "images/homepage/image_1.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\homepage\\image_1.png"
-    },
-    {
       "Identity": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickflixPlus\\wwwroot\\images\\homepage\\image_2.png",
       "SourceId": "NickflixPlus",
       "SourceType": "Discovered",
@@ -202,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo1.png"
+    },
+    {
+      "Identity": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickflixPlus\\wwwroot\\images\\screenshots\\screenshot1.png",
+      "SourceId": "NickflixPlus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickflixPlus\\wwwroot\\",
+      "BasePath": "_content/NickflixPlus",
+      "RelativePath": "images/screenshots/screenshot1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\screenshots\\screenshot1.png"
     },
     {
       "Identity": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickflixPlus\\wwwroot\\js\\site.js",

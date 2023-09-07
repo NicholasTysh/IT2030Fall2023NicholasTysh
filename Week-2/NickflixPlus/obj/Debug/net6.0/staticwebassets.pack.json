@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickflixPlus\\wwwroot\\images\\homepage\\image_1.png",
-      "PackagePath": "staticwebassets\\images\\homepage\\image_1.png"
-    },
-    {
       "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickflixPlus\\wwwroot\\images\\homepage\\image_2.png",
       "PackagePath": "staticwebassets\\images\\homepage\\image_2.png"
     },
@@ -39,6 +35,10 @@
     {
       "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickflixPlus\\wwwroot\\images\\logo1.png",
       "PackagePath": "staticwebassets\\images\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickflixPlus\\wwwroot\\images\\screenshots\\screenshot1.png",
+      "PackagePath": "staticwebassets\\images\\screenshots\\screenshot1.png"
     },
     {
       "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickflixPlus\\wwwroot\\js\\site.js",
