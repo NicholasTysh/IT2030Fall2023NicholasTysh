@@ -5,12 +5,64 @@
       "PackagePath": "staticwebassets\\NickPixPlus.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
       "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\images\\homepage\\image_2.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\image_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\images\\homepage\\image_3.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\image_3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\images\\homepage\\image_4.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\image_4.png"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\images\\homepage\\image_4_2.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\image_4_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\images\\homepage\\image_5.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\image_5.png"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\images\\homepage\\image_5_2.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\image_5_2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\images\\homepage\\image_5_blank.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\image_5_blank.png"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\images\\logo1.png",
+      "PackagePath": "staticwebassets\\images\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\images\\logo3.png",
+      "PackagePath": "staticwebassets\\images\\logo3.png"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\images\\screenshots\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\screenshots\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\images\\screenshots\\screenshot1.png",
+      "PackagePath": "staticwebassets\\images\\screenshots\\screenshot1.png"
     },
     {
       "Id": "C:\\Users\\nicho\\OneDrive\\Documents\\Tri-C\\Semester 5\\.NET\\IT2030Fall2023NicholasTysh\\Week-2\\NickPixPlus\\wwwroot\\js\\site.js",
