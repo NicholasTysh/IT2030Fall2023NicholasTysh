@@ -1,0 +1,68 @@
+﻿@model NickPixPlus.Models.ContactModel
+
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+<div class="container col-xxl-12 px-4 py-5">
+    <div class="row align-items-start g-5 py-5">
+        <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Contact Form</h1>
+            <form asp-action="Index">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="FirstName" class="control-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LastName" class="control-label"></label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label"></label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone" class="control-label"></label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Message" class="control-label"></label>
+                    <input asp-for="Message" class="form-control" />
+                    <span asp-validation-for="Message" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 justify-content-top">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Contact Information</h1>
+            <p><i class="fas fa-map-marker-alt mr-2"></i><strong> Mailing Address:</strong> 3409 Woodland Ave. Cleveland, OH 44115</p>
+            <p><i class="fas fa-phone-alt mr-2"></i><strong> Phone Number:</strong> (216) 987-6000</p>
+            <p><i class="fas fa-envelope mr-2"></i><strong> Email:</strong> nick@nickpixplus.com</p>
+            <p><i class="fas fa-clock mr-2"></i><strong> Hours of Operation:</strong> Mon-Fri: 9am - 6pm, Sat: 10am - 5pm, Sun: Closed</p>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to Contact Page</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
