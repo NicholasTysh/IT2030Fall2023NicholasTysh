@@ -1,0 +1,78 @@
+﻿@model IEnumerable<NickPixPlus.Models.Movie>
+
+@{
+    ViewData["Title"] = "Manage Content";
+}
+<div class="px-4 py-5 my-5 text-center">
+    <div class="row g-2 align-items-center">
+        <div class="col-12 d-flex justify-content-between">
+
+            <h2 class="page-title">
+                Manage Content
+            </h2>
+            <p>
+                <a type="button" class="btn btn-sm btn-outline-secondary btn-lg px-4" asp-area=""
+                    asp-controller="Movies" asp-action="Create">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 5l0 14"></path>
+                        <path d="M5 12l14 0"></path>
+                    </svg>
+                    Create New Movie
+                </a>
+            </p>
+
+        </div>
+    </div>
+
+    <div class="row g-2 align-items-center">
+        <div class="col-12 d-flex justify-content-between ">
+            <table class="table dark-table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Title)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ReleaseDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Genre)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Price)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="dark-row">
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Title)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ReleaseDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Genre)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Price)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
