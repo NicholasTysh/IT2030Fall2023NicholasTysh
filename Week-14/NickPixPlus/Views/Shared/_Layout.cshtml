@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Movie App</title>
+    <!-- New Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    @* Font Awesome *@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+    <style>
+        .dark-list-group-item {
+            background-color: #212121;
+            color: white;
+        }
+        /* .dark-list-group-item a {
+            color: #9bdfff;
+        } */
+        .dark-accordion .accordion-header .accordion-button {
+            background-color: #343a40;
+            color: white;
+        }
+
+        .dark-accordion .accordion-header .accordion-button::after {
+            filter: invert(1); 
+        }
+
+        .dark-accordion .accordion-header .accordion-button.collapsed {
+            background-color: #121212; 
+            color: white;
+        }
+
+        .dark-accordion .accordion-header .accordion-button.collapsed::after {
+            filter: invert(0); 
+        }
+
+        .dark-accordion .accordion-body {
+            background-color: #343a40;
+            color: white;
+        }
+
+        .table-dark-custom {
+            background-color: #121212;
+            color: white;
+        }
+
+        .table-dark-custom thead th {
+            background-color: #121212;
+            color: white;
+        }
+
+        .table-dark-custom tbody td {
+            background-color: #121212;
+            color: white;
+        }
+
+        .table-dark-custom a {
+            color: #9bdfff; 
+        }
+
+        .table-dark-custom a:hover {
+            color: #d1e9ff;
+        }
+    </style>
+</head>
+
+<body class="">
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="../images/logo4.png" alt="NickPix+ Logo" width="55">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Product" asp-action="ListProducts">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Contact" asp-action="">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="FAQ">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Tools">Tools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Events">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="ProductModels" asp-action="Index">ProductDb</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="ContactModels" asp-action="Index">ContactDb</a>
+                        </li>
+                        @*<l i class="nav-item">
+                             <a class="nav-link" href="#">Log in</a>
+                             </li> *@
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Main Body -->
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <!-- Footer -->
+    <div class="container">
+        <footer class="py-3">
+            <div class="container text-center">
+                <p>&copy; 2023 NickPix+. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- jQuery, Popper, Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
