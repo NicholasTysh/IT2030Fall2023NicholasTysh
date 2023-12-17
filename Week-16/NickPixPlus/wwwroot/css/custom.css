@@ -1,0 +1,38 @@
+﻿/* Custom CSS for NickFlix+ */
+
+html {
+    overflow:scroll;
+}
+
+
+
+nav a {
+    text-decoration: none !important;
+}
+
+.hero-section {
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%), url("../images/homepage/image_2.png");
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+
+
+
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
+  }
+
+
+.logo-lg {
+    font-size: 400%;
+}
+.logo-sm {
+
+}

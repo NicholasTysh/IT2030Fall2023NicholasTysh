@@ -1,0 +1,36 @@
+﻿@model IEnumerable<NickPixPlus.Models.ContactModel>
+
+@{
+    ViewData["Title"] = "Index-ContactDb";
+}
+
+<div class="container">
+    <h1>ContactDb</h1>
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New Contact</a>
+    </p>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem => item.LastName)</h5>
+                        <p class="card-text">
+                            <strong>Address:</strong> @Html.DisplayFor(modelItem => item.Address) <br>
+                            <strong>Phone:</strong> @Html.DisplayFor(modelItem => item.Phone) <br>
+                            <strong>Email:</strong> @Html.DisplayFor(modelItem => item.Email) <br>
+                        </p>
+                        <p class="card-text"><strong>Message: </strong><small>@Html.DisplayFor(modelItem => item.Message)</small></p>
+                    </div>
+                    <div class="card-footer">
+                        <a asp-action="Edit" asp-route-id="@item.ContactId" class="btn btn-secondary btn-sm">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.ContactId" class="btn btn-secondary btn-sm">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.ContactId" class="btn btn-danger btn-sm">Delete</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

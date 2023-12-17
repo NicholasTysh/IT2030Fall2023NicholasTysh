@@ -1,0 +1,40 @@
+﻿@model NickPixPlus.Models.ProductModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container mt-4">
+    <h1>Details</h1>
+    <div class="row">
+        <!-- Product Image -->
+        <div class="col-lg-4">
+            <img src="/images/covers/@Model.ProductImage" alt="Product picture" class="img-fluid rounded" style="width:100%; max-width:300px; height:auto;">
+        </div>
+        <!-- Product Description and Trailer -->
+        <div class="col-lg-8">
+            <h2>@Html.DisplayFor(model => model.ProductName)</h2>
+            <p>@Html.DisplayFor(model => model.ProductDescription)</p>
+
+            <!-- Trailer -->
+            @if (!string.IsNullOrEmpty(Model.TrailerURL))
+            {
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" class="embed-responsive-item" src="@Model.TrailerURL" allowfullscreen></iframe>
+                </div>
+            }
+
+            <!-- Action Buttons -->
+            <div class="mt-3">
+                <a asp-action="Edit" asp-route-id="@Model?.ProductId" class="btn btn-primary">Edit</a>
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col">
+            <h4>Price: @Html.DisplayFor(model => model.ProductPrice)</h4>
+        </div>
+    </div>
+</div>
